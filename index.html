@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Lead Generation for B2B Service Providers | John Smith</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Expert LinkedIn lead generation services for B2B companies. Transform your LinkedIn presence into a lead generation machine with proven strategies and personalized approach.">
+    <meta name="keywords" content="LinkedIn lead generation, B2B lead generation, LinkedIn marketing strategy, LinkedIn consultant, B2B marketing, lead generation service">
+    <meta name="author" content="John Smith">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="LinkedIn Lead Generation for B2B Service Providers">
+    <meta property="og:description" content="Transform your LinkedIn into a lead generation machine with proven B2B strategies. Get qualified leads while focusing on your core business.">
+    <meta property="og:image" content="img/profile.png">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LinkedIn Lead Generation for B2B Service Providers">
+    <meta name="twitter:description" content="Transform your LinkedIn into a lead generation machine with proven B2B strategies">
+    <meta name="twitter:image" content="img/profile.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourwebsite.com">
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "John Smith LinkedIn Lead Generation",
+      "description": "LinkedIn Lead Generation services for B2B service providers",
+      "founder": {
+        "@type": "Person",
+        "name": "John Smith"
+      },
+      "url": "https://yourwebsite.com",
+      "image": "img/profile.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Your Country"
+      },
+      "priceRange": "$$",
+      "sameAs": [
+        "https://www.linkedin.com/in/johnsmith"
+      ]
+    }
+    </script>
+    
+    <!-- Existing CSS links -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-green: #28a745;
+            --dark-green: #1e7e34;
+            --light-green: #d4edda;
+            --accent-green: #40c962;
+            --text-dark: #2c3e50;
+            --text-light: #6c757d;
+            --bg-light: #f8f9fa;
+        }
+        
+        /* Add smooth scrolling to html */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+        }
+        
+        .btn-primary {
+            background: var(--primary-green);
+            border: var(--primary-green);
+            border-radius: 25px;
+            padding: 12px 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            background: var(--dark-green);
+            border: var(--dark-green);
+            transform: translateY(-2px);
+        }
+        
+        .btn-outline-primary {
+            color: var(--primary-green);
+            border: 2px solid var(--primary-green);
+            border-radius: 25px;
+            padding: 12px 30px;
+            font-weight: 600;
+        }
+        
+        .btn-outline-primary:hover {
+            background: var(--primary-green);
+            border: var(--primary-green);
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/1stimage.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            color: white;
+        }
+        
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+        
+        .hero-content {
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(5px);
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            position: relative;
+            z-index: 2;
+            color: white;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .hero-section h1 {
+            font-size: 3.2rem;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+        }
+        
+        .hero-section .lead {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-content {
+                padding: 2rem;
+            }
+            
+            .hero-section h1 {
+                font-size: 2.2rem !important;
+            }
+            
+            .hero-section .lead {
+                font-size: 1.1rem !important;
+            }
+        }
+        
+        .hero-circle {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.1;
+        }
+        
+        .hero-circle-1 {
+            width: 300px;
+            height: 300px;
+            background: var(--primary-green);
+            top: -100px;
+            right: -100px;
+        }
+        
+        .hero-circle-2 {
+            width: 200px;
+            height: 200px;
+            background: var(--accent-green);
+            bottom: -50px;
+            left: -50px;
+        }
+        
+        .mockup-container {
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .laptop-mockup {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+            background: #fff;
+            padding: 20px;
+            border: 8px solid #333;
+        }
+        
+        .screen-content {
+            background: linear-gradient(135deg, var(--light-green) 0%, #fff 100%);
+            border-radius: 8px;
+            padding: 30px;
+            text-align: center;
+            min-height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .floating-elements {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .element-1 {
+            background: var(--primary-green);
+            top: 10%;
+            right: -40px;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        .element-2 {
+            background: var(--accent-green);
+            bottom: 20%;
+            left: -40px;
+            animation: float 3s ease-in-out infinite 1.5s;
+        }
+        
+        .element-3 {
+            background: var(--dark-green);
+            top: 60%;
+            right: -20px;
+            animation: float 3s ease-in-out infinite 3s;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+        }
+        
+        .section-subtitle {
+            font-size: 1.2rem;
+            color: var(--text-light);
+            margin-bottom: 2rem;
+        }
+        
+        .how-it-works {
+            background: var(--bg-light);
+            padding: 80px 0;
+        }
+        
+        .step-card {
+            text-align: center;
+            padding: 30px 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+        
+        .step-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .step-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--primary-green);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            color: white;
+            font-size: 1.8rem;
+        }
+        
+        .benefits-section {
+            padding: 80px 0;
+        }
+        
+        .benefit-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+        
+        .benefit-card:hover {
+            transform: translateY(-5px);
+        }
+          .benefit-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--light-green);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            color: var(--primary-green);
+            font-size: 1.5rem;
+        }        .benefits-content {
+            padding: 2rem 0;
+        }
+
+        .circular-image-container {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            margin: 2rem auto;
+        }
+
+        .orange-circle {
+            width: 400px;
+            height: 400px;
+            background: #FF4500;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        .profile-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .benefit-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            height: 100%;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .benefits-cards .benefit-card {
+            margin-bottom: 1.5rem;
+        }
+
+        .benefit-icon {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 1rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 1.2rem;
+        }
+
+        .benefit-card h5 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .benefit-card p {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 0;
+        }
+
+        .text-content {
+            max-width: 450px;
+        }
+
+        .text-content .h3 {
+            font-weight: 500;
+            line-height: 1.4;
+            color: var(--text-dark);
+        }
+        
+        .testimonial-section {
+            background: var(--bg-light);
+            padding: 80px 0;
+        }
+        
+        .company-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-top: 50px;
+        }
+        
+        .company-logo {
+            width: 120px;
+            height: 80px;
+            background: white;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: var(--text-light);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--dark-green) 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .footer {
+            background: #2c3e50;
+            color: white;
+        }
+        
+        .footer p.text-white {
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        
+        .footer .text-muted {
+            color: rgba(255, 255, 255, 0.85) !important;
+        }
+        
+        .footer h5 {
+            color: white;
+            font-size: 1.25rem;
+        }
+        
+        /* Ensure links are readable */
+        .footer a {
+            color: rgba(255, 255, 255, 0.9);
+            transition: color 0.3s ease;
+        }
+        
+        .footer a:hover {
+            color: var(--primary-green);
+        }
+        
+        /* Add new animation styles */
+        .step-card, .benefit-card {
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 0.6s ease forwards;
+        }
+        
+        /* Stagger the animations */
+        .step-card:nth-child(1) { animation-delay: 0.1s; }
+        .step-card:nth-child(2) { animation-delay: 0.2s; }
+        .step-card:nth-child(3) { animation-delay: 0.3s; }
+        .step-card:nth-child(4) { animation-delay: 0.4s; }
+        .step-card:nth-child(5) { animation-delay: 0.5s; }
+        .step-card:nth-child(6) { animation-delay: 0.6s; }
+
+        .benefit-card:nth-child(1) { animation-delay: 0.1s; }
+        .benefit-card:nth-child(2) { animation-delay: 0.2s; }
+        .benefit-card:nth-child(3) { animation-delay: 0.3s; }
+        .benefit-card:nth-child(4) { animation-delay: 0.4s; }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .hero-section {
+                text-align: center;
+            }
+            
+            .floating-elements {
+                display: none;
+            }
+        }
+
+        /* Add new navbar styles */
+        .navbar-nav {
+            margin: 0 auto;
+        }
+        
+        .navbar .btn-primary {
+            margin-left: 2rem;
+        }
+
+        /* Footer specific styles */
+        .footer-links a {
+            transition: opacity 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            opacity: 0.75;
+        }
+
+        /* Active nav link state */
+        .navbar .nav-link.active {
+            color: var(--primary-green) !important;
+            font-weight: 600;
+        }
+
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            display: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--primary-green);
+            color: white;
+            text-align: center;
+            line-height: 40px;
+            z-index: 99;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        /* Enhanced hero section */
+        .hero-section {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-section::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, rgba(40,167,69,0.3), rgba(0,0,0,0.5));
+            animation: gradientShift 8s ease infinite;
+        }
+
+        @keyframes gradientShift {
+            0% { opacity: 0.7; }
+            50% { opacity: 0.9; }
+            100% { opacity: 0.7; }
+        }
+
+        /* Enhanced card hover effects */
+        .step-card, .benefit-card {
+            transition: all 0.3s ease;
+        }
+
+        .step-card:hover, .benefit-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+
+        /* Newsletter form styling */
+        .footer-subscribe .form-control {
+            border-radius: 25px 0 0 25px;
+            border: none;
+            padding: 12px 20px;
+        }
+
+        .footer-subscribe .btn {
+            border-radius: 0 25px 25px 0;
+            padding: 12px 25px;
+        }
+
+        .footer-subscribe .form-control:focus {
+            box-shadow: 0 0 0 0.2rem rgba(40,167,69,0.25);
+        }
+
+        /* Loading animation for images */
+        .image-container {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .image-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            animation: loading 1.5s infinite;
+        }
+
+        @keyframes loading {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">            <a class="navbar-brand fw-bold" href="#" style="color: var(--primary-green);">
+                <i class="fab fa-linkedin me-2"></i>John Smith
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Service</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cta">Contact</a></li>
+                </ul>
+                <a href="#cta" class="btn btn-primary">Free Consultation</a>
+            </div>
+        </div>
+    </nav>    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">                    <div class="hero-content position-relative" style="margin-top: 2vh;">
+                        <h1 class="fw-bold text-center" style="font-size: 2.5rem; line-height: 1.2; margin-bottom: 1rem;">
+                            Turn Your LinkedIn Into a <span style="color: #40c962;">Lead Generation Machine</span>
+                        </h1>
+                        <p class="lead text-center" style="font-size: 1.4rem; max-width: 750px; margin: 1rem auto;">
+                            Stop wasting time on LinkedIn posts that go nowhere. I help B2B service providers build systematic LinkedIn presence that attracts qualified leads while you focus on your genius.
+                        </p>
+                        <div class="d-flex justify-content-center gap-3 flex-wrap mt-3">
+                            <a href="#cta" class="btn btn-light btn-lg px-4">Let's Grow Your LinkedIn</a>
+                            <a href="#how-it-works" class="btn btn-outline-light btn-lg px-4">How It Works</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="text-center mb-5">                <h2 class="section-title">How I Can Help You</h2>
+                <p class="section-subtitle">My proven process to transform your LinkedIn presence</p>
+            </div>
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h4>1. Custom Strategy Development</h4>
+                        <p>Create a tailored LinkedIn marketing strategy aligned with your unique business goals and target audience.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <h4>2. Profile Enhancement</h4>
+                        <p>Optimize your LinkedIn profile with compelling content and strategic keywords to maximize visibility and attract ideal connections.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h4>3. Personalized Outreach</h4>
+                        <p>Connect with your target audience using customized, authentic messaging that resonates with their needs and interests.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>4. Community Building</h4>
+                        <p>Cultivate an engaged network of industry professionals and decision-makers who genuinely connect with your brand.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4>5. Ongoing Engagement</h4>
+                        <p>Maintain meaningful interactions and relationships with your network through consistent, value-driven communication.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="step-card">
+                        <div class="step-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>6. Growth Monitoring</h4>
+                        <p>Track your LinkedIn presence's evolution and adjust strategies to ensure continuous improvement and success.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->    <section class="benefits-section" id="services">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div class="benefits-content">
+                        <h2 class="section-title mb-4">Benefits</h2>                        <div class="text-content mb-5">
+                            <p class="h5 mb-4">I handle all the LinkedIn complexities while you focus on what you do best. Your only task? Having meaningful conversations with qualified leads who are genuinely interested in your services.</p>
+                        </div>                        <div class="circular-image-container">
+                            <div class="orange-circle">
+                                <img src="img/profile.png" alt="John Smith - LinkedIn Lead Generation Expert" class="profile-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4 benefits-cards">                        <div class="col-md-6">
+                            <div class="benefit-card">
+                                <h5>Personalized Strategy</h5>
+                                <p>Custom-tailored approach that aligns perfectly with your unique business goals and target audience.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="benefit-card">
+                                <h5>Enhanced Visibility</h5>
+                                <p>Optimized profile and content that increases your visibility and attracts your ideal connections.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="benefit-card">
+                                <h5>Quality Engagement</h5>
+                                <p>Authentic conversations and meaningful interactions that build trust and credibility.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="benefit-card">
+                                <h5>Growing Community</h5>
+                                <p>Active network of engaged professionals who genuinely value your expertise.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="benefit-card">
+                                <h5>Consistent Results</h5>
+                                <p>Systematic approach that delivers predictable lead generation and business growth.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="testimonial-section">
+        <div class="container">
+            <div class="text-center">                <h2 class="section-title">Transform Your LinkedIn Into a Lead Magnet</h2>
+                <p class="section-subtitle">Here's how we'll grow your presence and attract quality leads:</p>
+                
+                <div class="row justify-content-center mt-5">
+                    <div class="col-md-4 text-center mb-4">
+                        <div class="growth-step">
+                            <i class="fas fa-star-half-alt mb-3" style="font-size: 2.5rem; color: var(--primary-green);"></i>
+                            <h4>Polish Your Profile</h4>
+                            <p class="text-muted">Optimize your profile to instantly showcase your value and establish authority in your industry.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <div class="growth-step">
+                            <i class="fas fa-pen-fancy mb-3" style="font-size: 2.5rem; color: var(--primary-green);"></i>
+                            <h4>Engaging Content</h4>
+                            <p class="text-muted">Create compelling content that resonates with your ideal clients and keeps them coming back for more.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <div class="growth-step">
+                            <i class="fas fa-cogs mb-3" style="font-size: 2.5rem; color: var(--primary-green);"></i>
+                            <h4>Sustainable System</h4>
+                            <p class="text-muted">Implement a simple, effective system that converts meaningful conversations into valuable opportunities.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row mt-5">
+                    <div class="col-md-4 text-center">
+                        <h3 class="fw-bold" style="color: var(--primary-green);">Proven Process</h3>
+                        <p>Strategic approach to growth</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h3 class="fw-bold" style="color: var(--primary-green);">Real Results</h3>
+                        <p>Measurable impact on leads</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h3 class="fw-bold" style="color: var(--primary-green);">Ongoing Support</h3>
+                        <p>Continuous guidance & optimization</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    <!-- CTA Section -->
+    <section class="cta-section" id="cta">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="display-5 fw-bold mb-4">Start Your LinkedIn Growth Journey Today</h2>
+                    <p class="lead mb-4">Book your free 30-minute strategy session and get:</p>
+                    
+                    <div class="row mb-5">
+                        <div class="col-md-4">
+                            <div class="benefit-highlight">
+                                <i class="fas fa-search mb-3" style="font-size: 2rem; color: white;"></i>
+                                <h5>Profile Analysis</h5>
+                                <p class="small">Get insights on your current LinkedIn presence</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="benefit-highlight">
+                                <i class="fas fa-road mb-3" style="font-size: 2rem; color: white;"></i>
+                                <h5>Growth Roadmap</h5>
+                                <p class="small">Custom strategy for your business goals</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="benefit-highlight">
+                                <i class="fas fa-lightbulb mb-3" style="font-size: 2rem; color: white;"></i>
+                                <h5>Quick Wins</h5>
+                                <p class="small">Actionable tips you can implement today</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex justify-content-center gap-3 flex-wrap">
+                        <a href="" class="btn btn-light btn-lg px-4">
+                            <i class="far fa-calendar-alt me-2"></i>Schedule Strategy Call
+                        </a>
+                        <a href="" class="btn btn-outline-light btn-lg px-4">
+                            <i class="fab fa-linkedin me-2"></i>Connect on LinkedIn
+                        </a>
+                    </div>
+                    
+                    <p class="mt-4 opacity-75">
+                        <i class="fas fa-clock me-2"></i>30-minute consultation • Zero obligation • Guaranteed value
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>    <!-- Contact & Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-6">                    <h5 class="mb-4 fw-bold">John Smith</h5>
+                    <p class="text-white opacity-85" style="line-height: 1.6;">LinkedIn Lead Generation Specialist helping B2B businesses generate qualified leads and grow their network organically.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Contact</h5>
+                    <ul class="list-unstyled footer-contact">                        <li class="mb-2">
+                            <i class="far fa-envelope me-2"></i>
+                            <a href="mailto:john@johnsmith.com" title="Email John Smith">john@johnsmith.com</a>
+                        </li>
+                        <li class="mb-2">
+                            <i class="fab fa-linkedin me-2"></i>
+                            <a href="https://www.linkedin.com/in/johnsmith" target="_blank" rel="noopener" title="Connect with John on LinkedIn">LinkedIn Profile</a>
+                        </li>
+                        <li>
+                            <i class="far fa-calendar-alt me-2"></i>
+                            <a href="#cta" title="Schedule a consultation call">Schedule a Call</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#home">Home</a></li>
+                        <li class="mb-2"><a href="#services">Services</a></li>
+                        <li class="mb-2"><a href="#how-it-works">How It Works</a></li>
+                        <li class="mb-2"><a href="#transform">Results</a></li>
+                        <li><a href="#cta">Book a Call</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Newsletter</h5>
+                    <p class="text-muted mb-3">Get weekly LinkedIn growth tips and strategies delivered to your inbox.</p>
+                    <form class="footer-subscribe">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your email">
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="my-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-md-0">&copy; 2025 John Smith. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-decoration-none me-3">Privacy Policy</a>
+                    <a href="#" class="text-decoration-none">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>    <script>
+        // Back to top button
+        const backToTop = document.getElementById("backToTop");
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 300) {
+                backToTop.style.display = "block";
+            } else {
+                backToTop.style.display = "none";
+            }
+        });
+
+        backToTop.addEventListener("click", (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+
+        // Simple form handling
+        document.querySelectorAll('.footer-subscribe').forEach(form => {
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                form.reset();
+                alert('Thank you for subscribing to our newsletter!');
+            });
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.step-card, .benefit-card, .growth-step').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
